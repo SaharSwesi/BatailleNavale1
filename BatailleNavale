@@ -1,0 +1,40 @@
+import java.util.Scanner ; 
+public class BatailleNavale {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in) ;
+		System.out.print.ln ("règles : ") // Affichage des règles
+		// orientation horizontale = true
+		// orientation verticale = false
+		
+		System.out.print.ln("Joueur 1 : Saisissez votre nom ");
+		String Joueur1 = sc.nextLine(); 
+		System.out.print.ln("Merci d'avoir saisi votre nom, " + Joueur1 + "le Joueur 2 est prié de fermer les yeux." + Joueur1 + "remplissez votre grille en indiquant les coordonnées de départ et l'orientation pour les navires suivant " );
+		
+		for (int i= 0 ; i<port.length ; i ++ ){
+			System.out.println("Coordonnées de " + port[i] ) ;
+			int l = sc.nextLine() ; 
+			int c = sc.nextLine() ;
+			boolean orientation = sc.nextLine(); 
+			if (Grille[l][c]== '.'){
+				for (int i = 0 ; i <nbCompartiments.length ; i++){
+					if (orientation==false){
+						
+					}
+				} 
+				
+			
+			// tout est ok 
+			}else{ // message erreur saissir autres coord
+				System.out.println("la case est non disponible, veuillez saisir des autres coordonnées");
+			
+			 
+			Systeme.out.print( "(" + l + ";" + c + ")" );  
+		}
+		
+		String MaGrille1 () ; 
+		
+		afficheMaGrille(String  
+		placerNavire( int n, boolean orientation, int l, int c) ; 
+		
+	}
+}
